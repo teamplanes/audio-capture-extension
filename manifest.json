@@ -1,13 +1,11 @@
 {
   "manifest_version": 2,
-
-  "name": "Chrome Audio Capture",
-  "description": "This extension captures the audio on the current tab and saves the output file on your computer when the capture is complete",
-  "version": "1.1.1",
+  "name": "CultureLabs Recorder",
+  "description": "Record audio from your interviews to get psychometric testing",
+  "version": "1.0",
   "icons": {
-    "128":"icon.png"
-    },
-
+    "128": "icon.png"
+  },
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
@@ -15,7 +13,10 @@
   },
   "options_page": "options.html",
   "background": {
-    "scripts": ["background.js", "worker.js"],
+    "scripts": [
+      "background.js",
+      "worker.js"
+    ],
     "persistent": true
   },
   "permissions": [

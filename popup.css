@@ -1,9 +1,11 @@
-body, h2 {
-  font-family: Ubuntu, sans-serif;
-}
-
 body {
   margin: 10px 15px 5px 15px;
+  background-color: #2F6AA2;
+  color: white;
+}
+
+body, h2 {
+  font-family: Ubuntu, sans-serif;
 }
 
 #status, #timeRem {
@@ -17,7 +19,7 @@ body {
   display: flex;
   align-items: center;
   padding-bottom: 15px;
-  border-bottom: 2px solid darkred;
+  border-bottom: 2px solid #2F6AA2;
   white-space: nowrap;
 }
 
@@ -69,17 +71,16 @@ li {
   display: none;
   text-align: center;
   padding: 10px;
-  border: 2px solid darkred;
+  border: 2px solid #123251;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
-  background-color: lavenderblush;
+  background-color: #123251;
   border-radius: 5px;
 }
 
 .button:hover {
-  color: red;
-  background-color: darkred;
+  border-color: #FFF;
 }
 
 .notes {
